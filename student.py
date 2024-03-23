@@ -16,4 +16,8 @@ def display():
     os.system("cls")
     print("\n---Student details----")
     df = pd.read_csv("student.csv")
-    print(df)
+    sorted_df = df.sort_values(by='Total Marks', ascending=False)
+    print(sorted_df)
+
+if __name__=="__main__":
+    display()

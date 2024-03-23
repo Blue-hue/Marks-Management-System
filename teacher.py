@@ -9,11 +9,11 @@ def add_student():
 
     rollno = int(input("Enter rollno: "))
     name = input("Enter name: ")
-    marks1 = int(input("Enter marks of Maths-IV: "))
-    marks2 = int(input("Enter marks of Computer Networks: "))
-    marks3 = int(input("Enter marks of Graph Theory: "))
-    marks4 = int(input("Enter marks of OOS: "))
-    marks5 = int(input("Enter marks of Software Engineering: "))
+    marks1 = float(input("Enter marks of Maths-IV: "))
+    marks2 = float(input("Enter marks of Computer Networks: "))
+    marks3 = float(input("Enter marks of Graph Theory: "))
+    marks4 = float(input("Enter marks of OOS: "))
+    marks5 = float(input("Enter marks of Software Engineering: "))
     
     total_marks = marks1 + marks2 + marks3 + marks4 + marks5
     student_data = {"Rollno": rollno, "Name": name, "Maths-IV": marks1, "Computer Networks": marks2, 
